@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE loottable SYSTEM "Loottable.dtd">
+<loottable>
+    <loot page="2">
+        <item name="IronSword">
+            <itemname>Iron Sword</itemname>
+            <itemamount>2</itemamount>
+            <itemdescription>A simple iron sword as can be bought at many blacksmiths</itemdescription>
+            <itemvalue>5</itemvalue>
+        </item>
+    </loot>
+</loottable>
