@@ -2,11 +2,135 @@
 <!DOCTYPE loottable SYSTEM "Loottable.dtd">
 <loottable>
     <loot page="2">
-        <item name="IronSword">
-            <itemname>Iron Sword</itemname>
+        <item name="ShortSword">
+            <itemname>Short Sword</itemname>
             <itemamount>2</itemamount>
-            <itemdescription>A simple iron sword as can be bought at many blacksmiths</itemdescription>
-            <itemvalue>5</itemvalue>
+            <itemdescription>A short sword is about 2 feet in length.</itemdescription>
+            <itemvalue>10</itemvalue>
+        </item>
+        <item name="HideArmor">
+            <itemname>Hide Armor</itemname>
+            <itemamount>1</itemamount>
+            <itemdescription>Made out of cheap hide, this armor provides simple protection from weaker attacks</itemdescription>
+            <itemvalue>15</itemvalue>
+        </item>
+        <item name="PotionCureLightWounds">
+            <itemname>Potion of Cure Light Wounds</itemname>
+            <itemamount>1</itemamount>
+            <itemdescription>You channel positive energy that cures 1d8 points of damage +1</itemdescription>
+            <itemvalue>50</itemvalue>
+        </item>
+    </loot>
+    <loot page="6">
+        <item name="ScaleMail">
+            <itemname>Scale Mail</itemname>
+            <itemamount>1</itemamount>
+            <itemdescription>Scale mail is made up of dozens of small overlapping metal plates. The suit includes gauntlets.</itemdescription>
+            <itemvalue>50</itemvalue>
+        </item>
+        <item name="PotionCureLightWounds">
+            <itemname>Potion of Cure Light Wounds</itemname>
+            <itemamount>3</itemamount>
+            <itemdescription>You channel positive energy that cures 1d8 points of damage +1</itemdescription>
+            <itemvalue>50</itemvalue>
+        </item>
+    </loot>
+    <loot page="10">
+        <item name="">
+            <itemname></itemname>
+            <itemamount></itemamount>
+            <itemdescription></itemdescription>
+            <itemvalue></itemvalue>
+        </item>
+        <item name="">
+            <itemname></itemname>
+            <itemamount></itemamount>
+            <itemdescription></itemdescription>
+            <itemvalue></itemvalue>
+        </item>
+        <item name="">
+            <itemname></itemname>
+            <itemamount></itemamount>
+            <itemdescription></itemdescription>
+            <itemvalue></itemvalue>
+        </item>
+        <item name="">
+            <itemname></itemname>
+            <itemamount></itemamount>
+            <itemdescription></itemdescription>
+            <itemvalue></itemvalue>
+        </item>
+    </loot>
+    <loot page="14">
+        <item name="">
+            <itemname></itemname>
+            <itemamount></itemamount>
+            <itemdescription></itemdescription>
+            <itemvalue></itemvalue>
+        </item>
+        <item name="">
+            <itemname></itemname>
+            <itemamount></itemamount>
+            <itemdescription></itemdescription>
+            <itemvalue></itemvalue>
+        </item>
+        <item name="">
+            <itemname></itemname>
+            <itemamount></itemamount>
+            <itemdescription></itemdescription>
+            <itemvalue></itemvalue>
+        </item>
+    </loot>
+    <loot page="16">
+        <item name="">
+            <itemname></itemname>
+            <itemamount></itemamount>
+            <itemdescription></itemdescription>
+            <itemvalue></itemvalue>
+        </item>
+        <item name="">
+            <itemname></itemname>
+            <itemamount></itemamount>
+            <itemdescription></itemdescription>
+            <itemvalue></itemvalue>
+        </item>
+    </loot>
+    <loot page="20">
+        <item name="">
+            <itemname></itemname>
+            <itemamount></itemamount>
+            <itemdescription></itemdescription>
+            <itemvalue></itemvalue>
+        </item>
+        <item name="">
+            <itemname></itemname>
+            <itemamount></itemamount>
+            <itemdescription></itemdescription>
+            <itemvalue></itemvalue>
+        </item>
+        <item name="">
+            <itemname></itemname>
+            <itemamount></itemamount>
+            <itemdescription></itemdescription>
+            <itemvalue></itemvalue>
+        </item>
+        <item name="">
+            <itemname></itemname>
+            <itemamount></itemamount>
+            <itemdescription></itemdescription>
+            <itemvalue></itemvalue>
+        </item>
+        <item name="">
+            <itemname></itemname>
+            <itemamount></itemamount>
+            <itemdescription></itemdescription>
+            <itemvalue></itemvalue>
+        </item>
+        <item name="">
+            <itemname></itemname>
+            <itemamount></itemamount>
+            <itemdescription></itemdescription>
+            <itemvalue></itemvalue>
         </item>
     </loot>
 </loottable>
