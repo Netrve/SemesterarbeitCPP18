@@ -96,41 +96,41 @@
         </item>
     </loot>
     <loot page="20">
-        <item name="">
-            <itemname></itemname>
-            <itemamount></itemamount>
-            <itemdescription></itemdescription>
-            <itemvalue></itemvalue>
+        <item name="ScrollResurrection">
+            <itemname>Scroll of Resurrection</itemname>
+            <itemamount>2</itemamount>
+            <itemdescription>This scroll functions like the spell raise dead, except that you are able to restore life and complete strength to any deceased creature.</itemdescription>
+            <itemvalue>2450</itemvalue>
         </item>
-        <item name="">
-            <itemname></itemname>
-            <itemamount></itemamount>
-            <itemdescription></itemdescription>
-            <itemvalue></itemvalue>
+        <item name="MwkMithralChainmail">
+            <itemname>Masterwork Mithral Chainmail</itemname>
+            <itemamount>1</itemamount>
+            <itemdescription>Unlike a chain shirt, chainmail covers the legs and arms of the wearer. The suit includes gauntlets.</itemdescription>
+            <itemvalue>1450</itemvalue>
         </item>
-        <item name="">
-            <itemname></itemname>
-            <itemamount></itemamount>
-            <itemdescription></itemdescription>
-            <itemvalue></itemvalue>
+        <item name="FullPlate">
+            <itemname>Full Plate</itemname>
+            <itemamount>1</itemamount>
+            <itemdescription>This metal suit includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith.</itemdescription>
+            <itemvalue>1500</itemvalue>
         </item>
-        <item name="">
-            <itemname></itemname>
-            <itemamount></itemamount>
-            <itemdescription></itemdescription>
-            <itemvalue></itemvalue>
+        <item name="ScimitarSpellthief">
+            <itemname>Scimitar of the Spellthief</itemname>
+            <itemamount>1</itemamount>
+            <itemdescription>This curved blade of golden metal, a +1 keen heartseeking spellstealing scimitar, is the bane of spellcasters. Inscribed with flowing magical script that purports to reveal the inner secrets of magic, the scimitar of the spellthief grants the wielder a +2 bonus on Spellcraft and Use Magic Device checks.</itemdescription>
+            <itemvalue>35000</itemvalue>
         </item>
-        <item name="">
-            <itemname></itemname>
-            <itemamount></itemamount>
-            <itemdescription></itemdescription>
-            <itemvalue></itemvalue>
+        <item name="PotionBlur">
+            <itemname>Potion of Blur</itemname>
+            <itemamount>2</itemamount>
+            <itemdescription>The subject’s outline appears blurred, shifting, and wavering. This distortion grants the subject concealment (20% miss chance).</itemdescription>
+            <itemvalue>300</itemvalue>
         </item>
-        <item name="">
-            <itemname></itemname>
-            <itemamount></itemamount>
-            <itemdescription></itemdescription>
-            <itemvalue></itemvalue>
+        <item name="PotionCureModerateWounds">
+            <itemname>Potion of Cure Moderate Wounds</itemname>
+            <itemamount>5</itemamount>
+            <itemdescription>The damage cured increases to 4d8 points of damage + 2 and cures up to 2 points of ability damage.</itemdescription>
+            <itemvalue>300</itemvalue>
         </item>
     </loot>
 </loottable>
