@@ -1,0 +1,9 @@
+<!ELEMENT loottable loot>
+<!ELEMENT loot item>
+<!ATTLIST loot page>
+<!ELEMENT item itemname itemamount itemdescription itemvalue>
+<!ATTLIST item name>
+<!ELEMENT itemname>
+<!ELEMENT itemamount>
+<!ELEMENT itemdescription>
+<!ELEMENT itemvalue>

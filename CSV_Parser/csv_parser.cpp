@@ -83,7 +83,7 @@ int csv_parser::read_csv(ifstream &file) {
         switch (step) {
         case 0:
           player_name = buffer;
-          manipulate_player(player_name);
+          add_player(player_name);
           break;
         case 1:
           item_name = buffer;
@@ -106,8 +106,7 @@ int csv_parser::read_csv(ifstream &file) {
       buffer[counter] = '\0';
       counter = 0;
       item_value = atof(buffer);
-      manipulate_item(player_name, item_name, item_notes, item_amount,
-                      item_value);
+      add_item(player_name, item_name, item_notes, item_amount, item_value);
       step = 0;
       break;
 
@@ -120,54 +119,50 @@ int csv_parser::read_csv(ifstream &file) {
   return 0;
 }
 
-void csv_parser::manipulate_player(string name) {
-  if (counter == -1) {
-    counter++;
-    players[counter].name = name;
-  } else {
-    if (find_player(name) == -1) {
-      counter++;
-      players[counter].name = name;
-    }
+void csv_parser::add_player(string name) {
+  player *temp;
+  temp = new player;
+  temp->name = name;
+  if (find_player(name) == -1) {
+    players.push_back(*temp);
   }
 }
 
 int csv_parser::find_player(string name) {
-  for (int i = 0; i <= counter; i++) {
-    if (players[i].name == name) {
+  for (int i = 0; i < players.size(); i++) {
+    string pname = players[i].name;
+    transform(pname.begin(), pname.end(), pname.begin(), ::tolower);
+    transform(name.begin(), name.end(), name.begin(), ::tolower);
+    if (pname == name) {
       return i;
     }
   }
   return -1;
 }
 
-void csv_parser::manipulate_item(string player_name, string name, string notes,
-                                 int amount, float value) {
+void csv_parser::add_item(string player_name, string name, string notes,
+                          int amount, float value) {
   int position = find_player(player_name);
-  players[position].add_item(name, notes, amount, value);
-}
-
-void csv_parser::get_player_inventory(string name) {
-  int position = find_player(name);
-  if (position == -1) {
-    print_line("This player has no inventory (This search is case sensitive, "
-               "please check the spelling)");
+  if (position != -1) {
+    players[position].add_item(name, notes, amount, value);
   } else {
-    for (int i = 0; i <= players[position].get_count(); i++) {
-      print_line("Player " + name + " has " +
-                 to_string(players[position].get_item(i).amount) + " " +
-                 players[position].get_item(i).name + " worth " +
-                 to_string(players[position].get_item(i).tvalue()) + "GP (" +
-                 to_string(players[position].get_item(i).value) +
-                 "GP per item)");
-    }
+    print_line("This player has no inventory (Player not found)");
   }
 }
 
-string csv_parser::get_players() {
+string csv_parser::list_players() {
   string output = "";
-  for (int i = 0; i <= counter; i++) {
+  for (int i = 0; i < players.size(); i++) {
     output += players[i].name + " ";
   }
   return output;
+}
+
+player csv_parser::get_player(string name) {
+  int position = find_player(name);
+  if (position == -1) {
+    throw exception("Player not found");
+  } else {
+    return players[position];
+  }
 }
