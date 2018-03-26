@@ -5,16 +5,20 @@ using namespace std;
 int Debug();
 
 int main() {
-  // LootManager *Loot;
-  // Loot = new LootManager;
-  // Loot->InitializeObjects();
-
-  return Debug();
+  /*
+  cout << "Starting Test" << endl;
+  player *test;
+  test = new player;
+  test->add_item("Test", "Testing Object", 1, 10);
+  test->display_inventory();
+  */
+  Debug();
+  return 1;
 }
 
 int Debug() {
   csv_parser *csv;
-  string csv_filename = "Input/Players.csv";
+  string csv_filename = "Players.csv";
   ifstream input;
   string select;
   char c;
