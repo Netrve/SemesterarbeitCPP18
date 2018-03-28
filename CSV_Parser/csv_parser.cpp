@@ -1,5 +1,11 @@
 #include "csv_parser.h"
 
+csv_parser::csv_parser(ifstream &file, global &manager) {
+	file.clear();
+	file.seekg(0, ios::beg);
+	read_csv(file, manager);
+}
+
 bool csv_parser::sanity_check(ifstream &file) {
   int counter;
   char character;
@@ -43,7 +49,7 @@ bool csv_parser::sanity_check(ifstream &file) {
   return false;
 }
 
-int csv_parser::read_csv(ifstream &file) {
+int csv_parser::read_csv(ifstream &file, global &manager) {
   int counter;
   enum state state = normal;
   char character;
@@ -83,7 +89,7 @@ int csv_parser::read_csv(ifstream &file) {
         switch (step) {
         case 0:
           player_name = buffer;
-          add_player(player_name);
+          manager.Add_Player_To_Hold(player_name);
           break;
         case 1:
           item_name = buffer;
@@ -106,7 +112,7 @@ int csv_parser::read_csv(ifstream &file) {
       buffer[counter] = '\0';
       counter = 0;
       item_value = atof(buffer);
-      add_item(player_name, item_name, item_notes, item_amount, item_value);
+			manager.Add_Item_To_Player(player_name, item_name, item_notes, item_amount, item_value);
       step = 0;
       break;
 
@@ -117,52 +123,4 @@ int csv_parser::read_csv(ifstream &file) {
     }
   }
   return 0;
-}
-
-void csv_parser::add_player(string name) {
-  player *temp;
-  temp = new player;
-  temp->name = name;
-  if (find_player(name) == -1) {
-    players.push_back(*temp);
-  }
-}
-
-int csv_parser::find_player(string name) {
-  for (int i = 0; i < players.size(); i++) {
-    string pname = players[i].name;
-    transform(pname.begin(), pname.end(), pname.begin(), ::tolower);
-    transform(name.begin(), name.end(), name.begin(), ::tolower);
-    if (pname == name) {
-      return i;
-    }
-  }
-  return -1;
-}
-
-void csv_parser::add_item(string player_name, string name, string notes,
-                          int amount, float value) {
-  int position = find_player(player_name);
-  if (position != -1) {
-    players[position].add_item(name, notes, amount, value);
-  } else {
-    print_line("This player has no inventory (Player not found)");
-  }
-}
-
-string csv_parser::list_players() {
-  string output = "";
-  for (int i = 0; i < players.size(); i++) {
-    output += players[i].name + " ";
-  }
-  return output;
-}
-
-player csv_parser::get_player(string name) {
-  int position = find_player(name);
-  if (position == -1) {
-    throw exception("Player not found");
-  } else {
-    return players[position];
-  }
 }
