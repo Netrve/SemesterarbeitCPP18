@@ -9,6 +9,7 @@ using namespace std;
 
 class player {
 public:
+  player(string pname);
   string name;
   item find_item(string name);
   item get_item(int position);

@@ -9,7 +9,11 @@ using namespace std;
 
 class global {
 public:
-  global();
+  bool Add_Item_To_Player(string playername, string name, string notes = "", int amount = 1, float value = 0);
+  bool Add_Player_To_Hold(string name);
+  int Find_Player_By_Name(string name);
+	player Get_Player(string name);
+	string List_Players();
 
 private:
   vector<item> globalHold;

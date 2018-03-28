@@ -1,5 +1,10 @@
 #include "player.h"
 
+player::player(string pname)
+{
+	name = pname;
+}
+
 void player::add_item(string name, string notes, int amount, float value) {
   int pos = find_item_pos(name);
   if (pos == -1) {

@@ -12,7 +12,8 @@ int main() {
   test->add_item("Test", "Testing Object", 1, 10);
   test->display_inventory();
   */
-  Debug();
+	Debug();
+  
   return 1;
 }
 
@@ -23,16 +24,13 @@ int Debug() {
   string select;
   char c;
 
-  csv = new csv_parser;
-
   // Read the CSV
   input.open(csv_filename);
 
   if (input.is_open()) {
-    csv->read_csv(input);
+		csv = new csv_parser(input, manager);
     print_line("Loaded Player Inventories");
-    system("cls");
-    print_line("Players: " + csv->list_players());
+    print_line("Players: " + manager.List_Players());
   } else {
     print_line("Couldn't open file Player.csv");
     return -1;
@@ -48,7 +46,7 @@ int Debug() {
 playerinput:
   if (!select.empty()) {
     try {
-      player phandler = csv->get_player(select);
+      player phandler = manager.Get_Player(select);
 
       while (c != 'Q') {
         system("cls");
