@@ -1,9 +1,9 @@
 #ifndef GLOBAL_H
 #define GLOBAL_H
 
-#include <LootInventory/item.h>
-#include <LootInventory/player.h>
-#include <includes.h>
+#include "LootInventory/item.h"
+#include "LootInventory/player.h"
+#include "includes.h"
 
 using namespace std;
 

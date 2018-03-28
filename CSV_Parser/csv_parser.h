@@ -1,9 +1,9 @@
 #ifndef CSV_PARSER_H
 #define CSV_PARSER_H
 
-#include <LootInventory/player.h>
-#include <LootUtility/utility.h>
-#include <includes.h>
+#include "LootInventory/player.h"
+#include "LootUtility/utility.h"
+#include "includes.h"
 
 using namespace std;
 

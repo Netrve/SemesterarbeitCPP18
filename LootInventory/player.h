@@ -1,9 +1,9 @@
 #ifndef PLAYER_H
 #define PLAYER_H
 
-#include <LootInventory/item.h>
-#include <LootUtility/utility.h>
-#include <includes.h>
+#include "LootInventory/item.h"
+#include "LootUtility/utility.h"
+#include "includes.h"
 
 using namespace std;
 

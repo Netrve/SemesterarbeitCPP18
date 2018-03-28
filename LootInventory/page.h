@@ -1,8 +1,8 @@
 #ifndef PAGE_H
 #define PAGE_H
 
-#include <LootInventory/item.h>
-#include <includes.h>
+#include "LootInventory/item.h"
+#include "includes.h"
 
 using namespace std;
 
