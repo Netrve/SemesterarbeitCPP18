@@ -32,7 +32,7 @@ int Debug() {
     print_line("Loaded Player Inventories");
     print_line("Players: " + manager.List_Players());
   } else {
-    print_line("Couldn't open file Player.csv");
+    print_line("Couldn't open file Players.csv");
     return -1;
   }
 
