@@ -4,6 +4,7 @@
 // Present for Testing
 #include "CSV_Parser/csv_parser.h"
 #include "LootInventory/player.h"
+#include "XML_Parser/nexample3.h"
 
 // Actual Includes
 #include "LootInventory/global.h"

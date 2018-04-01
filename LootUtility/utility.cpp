@@ -1,6 +1,8 @@
 #include "utility.h"
 #include "main.h"
 
+bool debugmode = true;
+
 void print_line(string inS, format inF) {
   switch (inF) {
   case f_info:
@@ -10,7 +12,9 @@ void print_line(string inS, format inF) {
     cout << "[ERROR] " << inS << endl;
     break;
   case f_debug:
-    cout << "[DEBUG] " << inS << endl;
+    if (debugmode) {
+      cout << "[DEBUG] " << inS << endl;
+    }
     break;
   default:
     print_line("Invalid print_line() Format", f_error);

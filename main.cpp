@@ -4,23 +4,33 @@ using namespace std;
 
 global manager;
 
-int Debug();
+int DebugCSV();
+int DebugXML();
 
 int main() {
-  /*
-  cout << "Starting Test" << endl;
-  player *test;
-  test = new player;
-  test->add_item("Test", "Testing Object", 1, 10);
-  test->display_inventory();
-  */
-  Debug();
+  DebugXML();
 
   return 1;
 }
 
-int Debug() {
-  csv_parser *csv;
+int DebugXML() {
+  string xml_filename = "Loottable.xml";
+  ifstream input;
+  string select;
+
+  input.open(xml_filename);
+
+  if (input.is_open()) {
+    print_line("Placeholder", f_debug);
+  } else {
+    print_line("Couldn't open file Loottable.xml", f_error);
+    return -1;
+  }
+
+  return 1;
+}
+
+int DebugCSV() {
   string csv_filename = "Players.csv";
   ifstream input;
   string select;
@@ -30,11 +40,11 @@ int Debug() {
   input.open(csv_filename);
 
   if (input.is_open()) {
-    csv = new csv_parser(input, manager);
+    csv_parser csv(input, manager);
     print_line("Loaded Player Inventories");
     print_line("Players: " + manager.List_Players());
   } else {
-    print_line("Couldn't open file Players.csv");
+    print_line("Couldn't open file Players.csv", f_error);
     return -1;
   }
 
