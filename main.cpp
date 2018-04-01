@@ -2,6 +2,8 @@
 
 using namespace std;
 
+global manager;
+
 int Debug();
 
 int main() {
@@ -12,8 +14,8 @@ int main() {
   test->add_item("Test", "Testing Object", 1, 10);
   test->display_inventory();
   */
-	Debug();
-  
+  Debug();
+
   return 1;
 }
 
@@ -28,7 +30,7 @@ int Debug() {
   input.open(csv_filename);
 
   if (input.is_open()) {
-		csv = new csv_parser(input, manager);
+    csv = new csv_parser(input, manager);
     print_line("Loaded Player Inventories");
     print_line("Players: " + manager.List_Players());
   } else {

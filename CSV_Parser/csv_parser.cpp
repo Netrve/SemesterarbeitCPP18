@@ -1,9 +1,9 @@
 #include "csv_parser.h"
 
 csv_parser::csv_parser(ifstream &file, global &manager) {
-	file.clear();
-	file.seekg(0, ios::beg);
-	read_csv(file, manager);
+  file.clear();
+  file.seekg(0, ios::beg);
+  read_csv(file, manager);
 }
 
 bool csv_parser::sanity_check(ifstream &file) {
@@ -26,10 +26,10 @@ bool csv_parser::sanity_check(ifstream &file) {
       hold = string(buffer);
       transform(hold.begin(), hold.end(), hold.begin(), ::tolower);
       if (hold == "player;item;notes;amount;value") {
-        print_line("Passed Sanity Check");
+        print_line("Passed Sanity Check", f_debug);
         return true;
       } else {
-        print_line("Failed Sanity Check");
+        print_line("Failed Sanity Check", f_error);
         print_line("First line did not match expected form: "
                    "player;item;notes;amount;value");
         print_line("Incoming first line from file: " + hold);
@@ -112,7 +112,8 @@ int csv_parser::read_csv(ifstream &file, global &manager) {
       buffer[counter] = '\0';
       counter = 0;
       item_value = atof(buffer);
-			manager.Add_Item_To_Player(player_name, item_name, item_notes, item_amount, item_value);
+      manager.Add_Item_To_Player(player_name, item_name, item_notes,
+                                 item_amount, item_value);
       step = 0;
       break;
 
