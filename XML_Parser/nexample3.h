@@ -1,8 +1,8 @@
 #ifndef NEXAMPLE3_H
 #define NEXAMPLE3_H
 
-#include "ntoken3.h"
 #include "includes.h"
+#include "ntoken3.h"
 
 enum ezustand {
   direktive,
@@ -15,7 +15,7 @@ enum ezustand {
 
 class xml_read {
 public:
-  ClElement *read(ifstream &dtd);
+  ClElement *read(ifstream &xml);
 };
 
 #endif // NEXAMPLE3_H

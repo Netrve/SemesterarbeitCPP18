@@ -21,7 +21,7 @@ int DebugXML() {
   input.open(xml_filename);
 
   if (input.is_open()) {
-    print_line("Placeholder", f_debug);
+    xml_parser xml(input);
   } else {
     print_line("Couldn't open file Loottable.xml", f_error);
     return -1;
