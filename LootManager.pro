@@ -16,7 +16,8 @@ SOURCES += main.cpp \
     LootInventory/player.cpp \
     LootUtility/utility.cpp \
     LootInventory/global.cpp \
-    LootInventory/page.cpp
+    LootInventory/page.cpp \
+    XML_Parser/xml_parser.cpp
 
 HEADERS += \
     CSV_Parser/csv_parser.h \
@@ -33,4 +34,5 @@ HEADERS += \
     LootInventory/player.h \
     LootUtility/utility.h \
     LootInventory/global.h \
-    LootInventory/page.h
+    LootInventory/page.h \
+    XML_Parser/xml_parser.h
