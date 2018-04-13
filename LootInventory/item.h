@@ -7,7 +7,8 @@ using namespace std;
 
 class item {
 public:
-  item(string INname, string INnotes, int INamount, float INvalue);
+  item(string INname = "", string INnotes = "", int INamount = 0,
+       float INvalue = 0);
   string name;
   string notes;
   int amount;

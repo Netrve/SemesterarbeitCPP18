@@ -1,7 +1,7 @@
 #include "utility.h"
 #include "main.h"
 
-bool debugmode = true;
+bool debugmode = false;
 
 void print_line(string inS, format inF) {
   switch (inF) {

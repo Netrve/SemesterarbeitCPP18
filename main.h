@@ -1,14 +1,12 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-// Present for Testing
 #include "CSV_Parser/csv_parser.h"
-#include "LootInventory/player.h"
-#include "XML_Parser/xml_parser.h"
-
-// Actual Includes
 #include "LootInventory/global.h"
+#include "LootInventory/player.h"
 #include "LootUtility/utility.h"
+#include "LootUtility/xml_export.h"
+#include "XML_Parser/xml_parser.h"
 #include "includes.h"
 
 #endif // MAIN_H

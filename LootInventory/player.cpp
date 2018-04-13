@@ -1,9 +1,6 @@
 #include "player.h"
 
-player::player(string pname)
-{
-	name = pname;
-}
+player::player(string pname) { name = pname; }
 
 void player::add_item(string name, string notes, int amount, float value) {
   int pos = find_item_pos(name);
@@ -11,6 +8,15 @@ void player::add_item(string name, string notes, int amount, float value) {
     item *temp;
     temp = new item(name, notes, amount, value);
     playerInv.push_back(*temp);
+  } else {
+    playerInv[pos].amount++;
+  }
+}
+
+void player::insert_item(item initem) {
+  int pos = find_item_pos(initem.name);
+  if (pos == -1) {
+    playerInv.push_back(initem);
   } else {
     playerInv[pos].amount++;
   }
@@ -58,5 +64,14 @@ void player::display_inventory() {
     print_line("Player " + name + " has " + to_string(temp.amount) + " " +
                temp.name + " worth " + sub_end(to_string(temp.tvalue()), 4) +
                "GP (" + sub_end(to_string(temp.value), 4) + "GP per item)");
+  }
+}
+
+void player::remove_item(string itemname) {
+  int pos = find_item_pos(itemname);
+  if (pos == -1) {
+    throw exception("Item not found");
+  } else {
+    playerInv.erase(playerInv.begin() + pos);
   }
 }

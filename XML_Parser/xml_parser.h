@@ -1,23 +1,17 @@
 #ifndef XML_PARSER_H
 #define XML_PARSER_H
 
+#include "LootInventory/global.h"
+#include "LootUtility/utility.h"
 #include "includes.h"
-#include "ntoken3.h"
 
-enum ezustand {
-  direktive,
-  element,
-  attribute,
-  abhaengigElement,
-  abhaengigAttribute,
-  noise,
-  text
-};
+enum readState { direktive, erwarteAttribut, erwarteWert, readText, noise };
+
+enum attType { none, page, name };
 
 class xml_parser {
 public:
-  xml_parser(ifstream &xml);
-  ClElement *reader(ifstream &xml);
+  xml_parser(ifstream &xml, global &manager);
 };
 
 #endif // XML_PARSER_H
