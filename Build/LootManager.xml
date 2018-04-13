@@ -1,0 +1,296 @@
+<lootmanager>
+ <global>
+   <item>
+     <itemname>Scale Mail</itemname>
+     <itemamount>1</itemamount>
+     <itemnotes>Scale mail is made up of dozens of small overlapping metal plates. The suit includes gauntlets.</itemnotes>
+     <itemvalue>50.000000</itemvalue>
+     <itemtotal>50.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Potion of Cure Light Wounds</itemname>
+     <itemamount>3</itemamount>
+     <itemnotes>You channel positive energy that cures 1d8 points of damage +1</itemnotes>
+     <itemvalue>50.000000</itemvalue>
+     <itemtotal>150.000000</itemtotal>
+   </item>
+ </global>
+ <player name="David">
+   <item>
+     <itemname>Human-Bane Arrows</itemname>
+     <itemamount>4</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>4.000000</itemvalue>
+     <itemtotal>16.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Grappling Hook</itemname>
+     <itemamount>1</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>15.000000</itemvalue>
+     <itemtotal>15.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Potion of Darkvision</itemname>
+     <itemamount>1</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>100.000000</itemvalue>
+     <itemtotal>100.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Hand Crossbow</itemname>
+     <itemamount>1</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>125.000000</itemvalue>
+     <itemtotal>125.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Potion of Disguse Self</itemname>
+     <itemamount>1</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>100.000000</itemvalue>
+     <itemtotal>100.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Potion of Pass without Trace</itemname>
+     <itemamount>2</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>150.000000</itemvalue>
+     <itemtotal>300.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Potion of Vanish</itemname>
+     <itemamount>2</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>150.000000</itemvalue>
+     <itemtotal>300.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Arrows</itemname>
+     <itemamount>60</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>1.000000</itemvalue>
+     <itemtotal>60.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Hemp Rope</itemname>
+     <itemamount>1</itemamount>
+     <itemnotes>80ft</itemnotes>
+     <itemvalue>10.000000</itemvalue>
+     <itemtotal>10.000000</itemtotal>
+   </item>
+ <player name="Alex">
+   <item>
+     <itemname>Large Wand of Cure Light Wounds</itemname>
+     <itemamount>1</itemamount>
+     <itemnotes>30 Charges left</itemnotes>
+     <itemvalue>250.000000</itemvalue>
+     <itemtotal>250.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Scroll of Cause Fear</itemname>
+     <itemamount>2</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>150.000000</itemvalue>
+     <itemtotal>300.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Scroll of Charm Person</itemname>
+     <itemamount>1</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>150.000000</itemvalue>
+     <itemtotal>150.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Scroll of Summon Monster I</itemname>
+     <itemamount>2</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>150.000000</itemvalue>
+     <itemtotal>300.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Wand of Cure Light Wounds</itemname>
+     <itemamount>1</itemamount>
+     <itemnotes>24 Charges</itemnotes>
+     <itemvalue>200.000000</itemvalue>
+     <itemtotal>200.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Scroll of Barkskin</itemname>
+     <itemamount>1</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>150.000000</itemvalue>
+     <itemtotal>150.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Scroll of Hold Portal</itemname>
+     <itemamount>1</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>150.000000</itemvalue>
+     <itemtotal>150.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Lute</itemname>
+     <itemamount>1</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>5.000000</itemvalue>
+     <itemtotal>5.000000</itemtotal>
+   </item>
+ <player name="Mark">
+   <item>
+     <itemname>Climber Kit</itemname>
+     <itemamount>1</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>20.000000</itemvalue>
+     <itemtotal>20.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Potion of Remove Sickness</itemname>
+     <itemamount>2</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>150.000000</itemvalue>
+     <itemtotal>300.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Vials of Soothe Syrup</itemname>
+     <itemamount>2</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>75.000000</itemvalue>
+     <itemtotal>150.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Anti-Toxins</itemname>
+     <itemamount>4</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>75.000000</itemvalue>
+     <itemtotal>300.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Healer's Kit</itemname>
+     <itemamount>1</itemamount>
+     <itemnotes>10 Uses Remaining</itemnotes>
+     <itemvalue>15.000000</itemvalue>
+     <itemtotal>15.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Tindertwigs</itemname>
+     <itemamount>20</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>1.000000</itemvalue>
+     <itemtotal>20.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Flail</itemname>
+     <itemamount>1</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>8.000000</itemvalue>
+     <itemtotal>8.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Broken Falchions</itemname>
+     <itemamount>6</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>20.000000</itemvalue>
+     <itemtotal>120.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Suits of Leather Armor</itemname>
+     <itemamount>3</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>10.000000</itemvalue>
+     <itemtotal>30.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Throwing Axes</itemname>
+     <itemamount>5</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>8.000000</itemvalue>
+     <itemtotal>40.000000</itemtotal>
+   </item>
+ <player name="Chris">
+   <item>
+     <itemname>Key</itemname>
+     <itemamount>1</itemamount>
+     <itemnotes>Taken from a Guard</itemnotes>
+     <itemvalue>0.000000</itemvalue>
+     <itemtotal>0.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Crowbar</itemname>
+     <itemamount>1</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>5.000000</itemvalue>
+     <itemtotal>5.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Campfire Bead</itemname>
+     <itemamount>1</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>720.000000</itemvalue>
+     <itemtotal>720.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Potion of Cure Light Wounds</itemname>
+     <itemamount>4</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>150.000000</itemvalue>
+     <itemtotal>600.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Armor Ointment</itemname>
+     <itemamount>3</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>5.000000</itemvalue>
+     <itemtotal>15.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Golden Bird Cage</itemname>
+     <itemamount>1</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>60.000000</itemvalue>
+     <itemtotal>60.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Bottles of Fine Wine</itemname>
+     <itemamount>4</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>10.000000</itemvalue>
+     <itemtotal>40.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Orc Double Axe</itemname>
+     <itemamount>2</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>60.000000</itemvalue>
+     <itemtotal>120.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Heavy Wooden Shield</itemname>
+     <itemamount>1</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>20.000000</itemvalue>
+     <itemtotal>20.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Mwk Light Steel Shield</itemname>
+     <itemamount>1</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>159.000000</itemvalue>
+     <itemtotal>159.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Mwk Chainmail</itemname>
+     <itemamount>1</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>300.000000</itemvalue>
+     <itemtotal>300.000000</itemtotal>
+   </item>
+   <item>
+     <itemname>Mwk Battleaxe</itemname>
+     <itemamount>1</itemamount>
+     <itemnotes></itemnotes>
+     <itemvalue>310.000000</itemvalue>
+     <itemtotal>310.000000</itemtotal>
+   </item>
+ </player>
+</lootmanager>

@@ -1,0 +1,134 @@
+<loottable>
+    <loot page="2">
+        <item name="ShortSword">
+            <itemname>Short Sword</itemname>
+            <itemamount>2</itemamount>
+            <itemdescription>A short sword is about 2 feet in length.</itemdescription>
+            <itemvalue>10</itemvalue>
+        </item>
+        <item name="HideArmor">
+            <itemname>Hide Armor</itemname>
+            <itemamount>1</itemamount>
+            <itemdescription>Made out of cheap hide, this armor provides simple protection from weaker attacks</itemdescription>
+            <itemvalue>15</itemvalue>
+        </item>
+        <item name="PotionCureLightWounds">
+            <itemname>Potion of Cure Light Wounds</itemname>
+            <itemamount>1</itemamount>
+            <itemdescription>You channel positive energy that cures 1d8 points of damage +1</itemdescription>
+            <itemvalue>50</itemvalue>
+        </item>
+    </loot>
+    <loot page="6">
+        <item name="ScaleMail">
+            <itemname>Scale Mail</itemname>
+            <itemamount>1</itemamount>
+            <itemdescription>Scale mail is made up of dozens of small overlapping metal plates. The suit includes gauntlets.</itemdescription>
+            <itemvalue>50</itemvalue>
+        </item>
+        <item name="PotionCureLightWounds">
+            <itemname>Potion of Cure Light Wounds</itemname>
+            <itemamount>3</itemamount>
+            <itemdescription>You channel positive energy that cures 1d8 points of damage +1</itemdescription>
+            <itemvalue>50</itemvalue>
+        </item>
+    </loot>
+    <loot page="10">
+        <item name="Estoc">
+            <itemname>Estoc</itemname>
+            <itemamount>2</itemamount>
+            <itemdescription>An estoc is a sword about as long as a bastard sword, but designed exclusively for thrusting attacks. Its “blade” is a steel spike with a triangular, square, or hexagonal cross-section.</itemdescription>
+            <itemvalue>50</itemvalue>
+        </item>
+        <item name="LightSteelShield">
+            <itemname>Light Steel Shield</itemname>
+            <itemamount>2</itemamount>
+            <itemdescription>Wooden and steel shields offer the same basic protection, though they respond differently to some spells and effects.</itemdescription>
+            <itemvalue>9</itemvalue>
+        </item>
+        <item name="MwkChainShirt">
+            <itemname>Masterwork Chain Shirt</itemname>
+            <itemamount>1</itemamount>
+            <itemdescription>Covering the torso, this shirt is made up of thousands of interlocking metal rings.</itemdescription>
+            <itemvalue>450</itemvalue>
+        </item>
+        <item name="WandCureLightWounds">
+            <itemname>Wand of Cure Light Wounds</itemname>
+            <itemamount>2</itemamount>
+            <itemdescription>You channel positive energy that cures 1d8 points of damage +1. The wand has 30 uses.</itemdescription>
+            <itemvalue>750</itemvalue>
+        </item>
+    </loot>
+    <loot page="14">
+        <item name="RepeatingCrossbowBolts">
+            <itemname>Repeating Crossbow Bolts</itemname>
+            <itemamount>50</itemamount>
+            <itemdescription>Bolts come in a case or quiver that holds 10 bolts (or 5 for a repeating crossbow).</itemdescription>
+            <itemvalue>1</itemvalue>
+        </item>
+        <item name="MwkRepeatingCrossbow">
+            <itemname>Masterwork Repeating Crossbow</itemname>
+            <itemamount>1</itemamount>
+            <itemdescription>The repeating crossbow (whether heavy or light) holds 5 crossbow bolts. You can fire a repeating crossbow with one hand or fire a repeating crossbow in each hand in the same manner as you would a normal crossbow of the same size.</itemdescription>
+            <itemvalue>550</itemvalue>
+        </item>
+        <item name="HalfPlate">
+            <itemname>Half Plate</itemname>
+            <itemamount>1</itemamount>
+            <itemdescription>Combining elements of full plate and chainmail, half-plate includes gauntlets and a helm.</itemdescription>
+            <itemvalue>600</itemvalue>
+        </item>
+    </loot>
+    <loot page="16">
+        <item name="WandSoundBurst">
+            <itemname>Wand of Sound Burst</itemname>
+            <itemamount>2</itemamount>
+            <itemdescription>You blast an area with a tremendous cacophony. Every creature in the area takes 1d8 points of sonic damage and must succeed on a Fortitude save to avoid being stunned for 1 round. Creatures that cannot hear are not stunned but are still damaged.</itemdescription>
+            <itemvalue>6000</itemvalue>
+        </item>
+        <item name="PotionCureModerateWounds">
+            <itemname>Potion of Cure Moderate Wounds</itemname>
+            <itemamount>5</itemamount>
+            <itemdescription>The damage cured increases to 4d8 points of damage + 2 and cures up to 2 points of ability damage.</itemdescription>
+            <itemvalue>300</itemvalue>
+        </item>
+    </loot>
+    <loot page="20">
+        <item name="ScrollResurrection">
+            <itemname>Scroll of Resurrection</itemname>
+            <itemamount>2</itemamount>
+            <itemdescription>This scroll functions like the spell raise dead, except that you are able to restore life and complete strength to any deceased creature.</itemdescription>
+            <itemvalue>2450</itemvalue>
+        </item>
+        <item name="MwkMithralChainmail">
+            <itemname>Masterwork Mithral Chainmail</itemname>
+            <itemamount>1</itemamount>
+            <itemdescription>Unlike a chain shirt, chainmail covers the legs and arms of the wearer. The suit includes gauntlets.</itemdescription>
+            <itemvalue>1450</itemvalue>
+        </item>
+        <item name="FullPlate">
+            <itemname>Full Plate</itemname>
+            <itemamount>1</itemamount>
+            <itemdescription>This metal suit includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith.</itemdescription>
+            <itemvalue>1500</itemvalue>
+        </item>
+        <item name="ScimitarSpellthief">
+            <itemname>Scimitar of the Spellthief</itemname>
+            <itemamount>1</itemamount>
+            <itemdescription>This curved blade of golden metal, a +1 keen heartseeking spellstealing scimitar, is the bane of spellcasters. Inscribed with flowing magical script that purports to reveal the inner secrets of magic, the scimitar of the spellthief grants the wielder a +2 bonus on Spellcraft and Use Magic Device checks.</itemdescription>
+            <itemvalue>35000</itemvalue>
+        </item>
+        <item name="PotionBlur">
+            <itemname>Potion of Blur</itemname>
+            <itemamount>2</itemamount>
+            <itemdescription>The subject’s outline appears blurred, shifting, and wavering. This distortion grants the subject concealment (20% miss chance).</itemdescription>
+            <itemvalue>300</itemvalue>
+        </item>
+        <item name="PotionCureModerateWounds">
+            <itemname>Potion of Cure Moderate Wounds</itemname>
+            <itemamount>5</itemamount>
+            <itemdescription>The damage cured increases to 4d8 points of damage + 2 and cures up to 2 points of ability damage.</itemdescription>
+            <itemvalue>300</itemvalue>
+        </item>
+    </loot>
+</loottable>
